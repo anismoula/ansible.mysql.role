@@ -12,7 +12,7 @@ install:
 
   # Add ansible.cfg to pick up roles path.
 
-  - echo "[defaults]\nroles_path = ../" > ansible.cfg"
+  - echo "[defaults]\nroles_path = ../" > ansible.cfg
 
 
 script:
