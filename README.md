@@ -12,7 +12,7 @@ Available variables are listed below, along with default values (/vars/main.yml)
 
     mysql_packages
     mysql_root_password
-    
+
 ## Dependencies
 
 None
@@ -22,7 +22,7 @@ None
     - hosts: servers
       become: yes
       roles:
-        - ansible.mysql.php
+        - ansible.mysql.role
 
 ## License
 
