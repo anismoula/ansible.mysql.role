@@ -3,4 +3,4 @@
   connection: local
   become: true
   roles:
-    - ansible.mysql.role
+    - github-ansible.mysql.role
